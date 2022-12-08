@@ -1,0 +1,74 @@
+Display: flex;
+Position: relative - absolute - fixed
+Flex-directions: column: - nó sắp xếp các mảng từ ngang -> dọc
+
+
+justify-content: center; - căn chỉnh theo hướng ngang ở vị trí center
+align-items: center; ngc lại
+
+
+nav - ul - li : tạo thanh công cụ 
+
+padding: 50px 50px; //Trên dưới trái phải
+padding: 50px 50px 50px 50px; //Trên phải dưới trái
+
+flex-wrap: wrap; //để xuống dòng mỗi khi user thu nhỏ
+flex-wrap: nowarp;
+
+text-decoration: none; // bỏ underline trong thẻ a
+
+transform: translateX,Y(-100px);
+
+overflow: hidden; -- ( Phần tràn ra bị ẩn sau khung kích thước định sẵn)
+
+&:hover: là một thuộc tính dùng trong trường hợp muốn thay đổi thuộc tính CSS khi người dùng rê chuột vào thành phần html.
+
+z-index: Nói đơn giản hơn thì z-index càng cao thì element đó đứng trước và hiện lên trên.
+
+rgba: (33,123,244, 0.1);
+
+----Warning!----
+Alt + shift + F: để canh hàng thẳng lối
+-------------------------------------
+position: absolute;
+top: 50%;
+left: 50%;
+height: 150px;
+margin-top: -75px;/* height/2 */
+width: 220px;
+margin-left: -110px; /* width/2 */
+background: red;
+
+-------------------------------------
+cursor: pointer;
+transition: 0.5s;
+
+          &:hover {
+                color: orange;
+                text-decoration: underline;
+          }
+--------------------------------------
+button {
+                 ...
+                  &:nth-child(3) {
+                        ...
+                  }
+      }
+--------------------------------------
+.PC{
+  ...
+}
+
+.mobie{
+  display: none;
+}
+@media screen and (max-width: 950px) {
+      .mobile {
+       ...
+       }
+
+      .PC {
+            display: none;
+      }
+}
+--------------------------------------

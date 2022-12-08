@@ -1,0 +1,125 @@
+@import url(https://fonts.adobe.com/fonts/motiva-sans#details-section+motiva-sans-thin);
+
+* {
+      margin: 0;
+      padding: 0;
+}
+
+.background {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1231%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='url(%23SvgjsLinearGradient1232)'%3e%3c/rect%3e%3cpath d='M1719.9601679134164 796.868707505287L1582.2743057301573 1055.2238660187677 1838.148189105993 1050.757570771007z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1603.294%2c2.249C1633.598%2c2.35%2c1665.924%2c-2.555%2c1682.592%2c-27.863C1700.742%2c-55.42%2c1701.349%2c-92.175%2c1683.949%2c-120.211C1667.353%2c-146.952%2c1634.765%2c-155.889%2c1603.294%2c-155.633C1572.362%2c-155.381%2c1541.106%2c-145.254%2c1524.881%2c-118.917C1507.917%2c-91.38%2c1507.333%2c-55.54%2c1524.905%2c-28.387C1541.242%2c-3.143%2c1573.225%2c2.149%2c1603.294%2c2.249' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1261.298%2c948.633C1331%2c947.01%2c1386.06%2c894.446%2c1418.184%2c832.567C1447.66%2c775.789%2c1445.098%2c709.72%2c1414.492%2c653.543C1382.363%2c594.569%2c1328.416%2c546.915%2c1261.298%2c544.603C1190.468%2c542.163%2c1124.006%2c580.888%2c1088.661%2c642.317C1053.404%2c703.593%2c1056.52%2c778.591%2c1091.23%2c840.178C1126.612%2c902.957%2c1189.255%2c950.31%2c1261.298%2c948.633' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M336.64656960150523-94.88674082403344L373.67106752475354 168.55625068552365 600.0895611110623-131.91123874728174z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M37.50331456017494 521.4989889959195L295.7680674181264 562.4041073328808 336.6731857550877 304.1393544749293 78.40843289713622 263.234236137968z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1757.819%2c1071.559C1840.975%2c1076.613%2c1928.505%2c1056.276%2c1975.257%2c987.322C2027.582%2c910.148%2c2036.774%2c808.378%2c1991.536%2c726.847C1945.06%2c643.084%2c1853.338%2c588.192%2c1757.819%2c595.437C1671.519%2c601.983%2c1615.725%2c680.108%2c1578.377%2c758.183C1546.733%2c824.334%2c1545.36%2c899.774%2c1581.798%2c963.41C1618.474%2c1027.461%2c1684.147%2c1067.082%2c1757.819%2c1071.559' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1231'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='10.94%25' y1='-19.44%25' x2='89.06%25' y2='119.44%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1232'%3e%3cstop stop-color='rgba(14%2c 42%2c 71%2c 1)' offset='0.38'%3e%3c/stop%3e%3cstop stop-color='rgba(130%2c 0%2c 158%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+      background-size: cover;
+      height: 100vh;
+      width: 100%;
+      
+
+      .blur {
+            backdrop-filter: blur(10px); // This be the blur
+            height: 100vh;
+            width: 100%;
+
+            &:hover {
+                  backdrop-filter: blur(0px); // This be the blur
+
+                  transition: 1s;
+
+            }
+
+      }
+
+
+}
+
+.toDoList {
+
+
+      .box {
+            
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            height: 300px;
+            margin-top: -150px;
+            /* height/2 */
+            width: 440px;
+            margin-left: -220px;
+            /* width/2 */
+            background-color: #ededed;
+            border-radius: 8px;
+            box-shadow: 0px 0px 40px 20px rgba(25, 28, 30, 0.2);
+
+            &__title {
+                  display: flex;
+                  color: rgba(224, 224, 224, 0.8);
+                  font-family: 'Open Sans', sans-serif;
+                  letter-spacing: 3px;
+                  margin-top: -50px;
+                  justify-content: center;
+                  padding-bottom: 10px;
+
+            }
+
+            &__body {
+                  padding: 30px 30px;
+                  display: flex;
+                  justify-content: center;
+                  
+                  input {
+                        
+                        height: 28px;
+                        width: 75%;
+                        font-family: 'Open Sans', sans-serif;
+                        border: none;
+                        background-color: #FFFF;
+                        border-radius: 6px;
+                        box-sizing: border-box;
+
+                  }
+
+                  button {
+                        
+                        cursor: pointer;
+                        width: 25%;
+                        height: 28px;
+                        border: none;
+                        font-family: 'Open Sans', sans-serif;
+                        color: black;
+                        letter-spacing: 1px;
+                        background-color: #62fcff ;
+                        border-radius: 6px;
+                        font-weight: bold;                        
+                  }
+
+            }
+
+            &__array{
+                  &__icon{
+                        span{
+                              cursor: pointer;
+                        }
+                  }
+                  display: flex;
+                  
+                  justify-content: space-between;
+                  padding: 10px 40px 0px 45px;
+                  
+                  
+            }
+
+            &__clearAll{
+                  display: flex;
+                  justify-content: center;
+                  transform: translateY(130px);
+                  button{
+
+                        font-family: 'Open Sans', sans-serif;
+                        border: none;
+                        color: rgb(174, 30, 30);
+                        letter-spacing: 2px;
+                        cursor: pointer;
+                        
+                        
+                  }
+                  
+            }
+      }
+}

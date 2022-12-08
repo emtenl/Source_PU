@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  padding: 50px 100px 200px 100px;
+}
+.header__nav ul {
+  display: flex;
+}
+.header__nav ul li {
+  margin: 0 20px;
+  list-style: none;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-style: normal;
+  color: rgba(64, 64, 64, 0.8);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.header__nav ul li:hover {
+  color: orange;
+  text-decoration: underline;
+}
+.header__button {
+  display: flex;
+  align-items: center;
+}
+.header__button img {
+  width: 20px;
+}
+.header__button button {
+  list-style: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #FFFFFF;
+  border: none;
+  color: #09B451;
+  margin-left: 30px;
+}
+.header__button button:nth-child(3) {
+  background-color: #09B451;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 950px) {
+  .header-mobile {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    align-items: center;
+  }
+  .header-mobile__left {
+    display: flex;
+    align-items: center;
+  }
+  .header-mobile__left img:first-child {
+    margin-right: 10px;
+    width: 35px;
+  }
+  .header {
+    display: none;
+  }
+}/*# sourceMappingURL=school.css.map */
