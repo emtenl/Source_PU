@@ -12,16 +12,20 @@
 </head>
 
 <body>
+      <div class="divv">
+            <button class="Button" onclick="scrollToTop()">Back to top</button>
+      </div>
+      
       <header class="header">
             <div class="left">
                   <img src="./img/logo.svg" alt="">
                   <!-- nav dùng để tạo thanh công cụ -->
                   <nav>
                         <ul>
+                              <li class="active">Community</li>
+                              <li class="active">Blog</li>
+                              <li class="active">Events</li>
                               <li class="active">Home </li>
-                              <li>Community</li>
-                              <li>Blog</li>
-                              <li>Events</li>
                         </ul>
 
                   </nav>
@@ -130,8 +134,9 @@
                   </div>
             </div>
       </div>
-
+      
       <!-- //animation -->
+      <script src="./JS/index.js"></script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script>
             AOS.init();
